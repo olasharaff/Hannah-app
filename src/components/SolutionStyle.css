@@ -38,6 +38,7 @@
 .newsIcon{
     margin: 1.5rem;
     color: transparent;
+    
 }
 
 .movie-animation {
@@ -66,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 32rem) {
    #solution-section{
     padding-top: 13rem;
     padding-inline: 1rem;
