@@ -194,11 +194,13 @@ main{
         & h2 {
             font-size: var(--fs-600);
             max-width: 19rem;
+            border: 2px solid red;
 
         }
 
         & h1 {
             font-size: var(--fs-700s); 
+            border: 2px solid red;
         }
     }
 
