@@ -1,0 +1,101 @@
+#rate-section{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    border: 2px solid hotpink;
+    position: relative;
+    background-color: white;
+    margin-bottom: 10rem;
+}
+#second-section{
+    position: absolute;
+    bottom: -26rem;
+    left: 4.5rem;
+    width: 63rem;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #F5F0FE;
+  
+   
+}
+input[type="range"]{
+  -webkit-appearance: none;
+    height: 1px;
+     min-width: 2rem;
+     width:39.6rem;
+    background-color: #F5F0FE;
+
+
+}
+.rate-container a{
+ padding:0.5rem 1rem;
+ border-radius: 100px;
+border: 1px solid #7234F5;
+text-decoration: none;
+margin-right: 0.5rem;
+color: black; 
+
+} 
+
+.rate-container a:hover{
+    background: #7134f560;
+   
+}
+.fa-circle-dot:hover{
+    color: #7134f5;
+}
+.fa-circle-dot{
+    padding-inline-end: 0.5rem;
+    color: #0000004f;
+}
+.rate-container h2{
+    padding-bottom: 0.6rem;
+}
+ 
+.rate-container{
+   padding: 1rem 0 2rem 2rem;
+}
+
+.select-container{
+    display: flex;
+    padding-top: 2rem;
+    border-top: 1px solid #F5F0FE;
+}
+.select-option {
+    padding-left: 2rem;
+}
+.select-option{
+    display: flex;
+    flex-direction: column;
+    
+}
+#my_select {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #cccccc;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 6px;
+    width: 300px;
+}
+.card-amount{
+    padding: 1.5rem 0;
+    padding-left: 2rem;
+}
+.rate-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    background: #7234F5;
+    height: fit-content;
+    border-radius: 0px 0 10px 10px;
+    padding: 2rem 0;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 30rem) {
+    #rate-section {
+        display: none;
+    }
+}

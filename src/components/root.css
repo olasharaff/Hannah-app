@@ -1,0 +1,270 @@
+@import url('https://fonts.cdnfonts.com/css/diagramm');
+
+
+:root{
+
+    --ff-main: 'Diagramm', sans-serif;
+
+    --fw-400:400;
+    --fw-500:500;
+    --fw-600: 600;
+
+    
+    --fs-100:0.75rem;
+    --fs-200:1rem;
+    --fs-300:1.25rem;
+    --fs-400:1.5;
+    --fs-500:1.7rem;
+    --fs-600:2.5rem;
+    --fs-600s:2.68rem;
+    --fs-700:2.75rem;
+    --fs-800:6.25rem;
+    --fs-700s: 4.5rem;
+
+
+     --lh-100:0.9rem;
+     --lh-200:1.2rem;
+     --lh-300:1.5rem;
+     --lh-400:1.8rem;
+     --lh-500:1.9rem;
+     --lh-600:2.7rem;
+     --lh-700: 3.6rem;
+     --lh-800: 4.8rem;
+     --lh-900:6.875rem ;
+
+    --clr-1-6C4: #FFE6C4;
+    --clr-2-432: #14141432;
+    --clr-3-3E4: #FEF3E4;
+    --clr-4-0FE:#F5F0FE;
+    --clr-white: #fff;
+    --clr-black: #141414;
+    --clr-5-8080: #808080;
+    
+}
+/* // https://piccalil.li/blog/a-modern-css-reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and Inherit fonts */
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'],
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Set core root defaults */
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Set core body defaults */
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.text-ex-sm{
+font-size: var(--fs-100);
+font-weight: var(--fw-400);
+line-height: var(--lh-100);
+font-family: var(--ff-main);
+}
+
+.text-sm{
+    font-size: var(--fs-100);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-100);
+    font-family: var(--ff-main);
+}
+.text-sm1 {
+    font-size: var(--fs-100);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-200);
+    font-family: var(--ff-main);
+}
+.text-sm2 {
+    font-size: var(--fs-100);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-300);
+    font-family: var(--ff-main);
+}
+
+.text-100 {
+    font-size: var(--fs-200);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-200);
+    font-family: var(--ff-main);
+}
+.text-1001 {
+    font-size: var(--fs-200);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-300);
+    font-family: var(--ff-main);
+}
+.text-200 {
+    font-size: var(--fs-200);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-200);
+    font-family: var(--ff-main);
+}
+.text-300 {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-300);
+    font-family: var(--ff-main);
+}
+.text-400 {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-300);
+    font-family: var(--ff-main);
+}
+.text-500 {
+    font-size: 13px;
+    max-width: 26rem;
+    color: #fff;
+    font-weight: var(--fw-400);
+    line-height: var(--lh-200);
+    font-family: var(--ff-main);
+}
+
+.text-600 {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-400);
+    font-family: var(--ff-main);
+}
+.text-700 {
+    font-size: var(--fs-500);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-600);
+    font-family: var(--ff-main);
+}
+.text-800 {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-700);
+    font-family: var(--ff-main);
+}
+.text-900 {
+    font-size: var(--fs-700);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-800);
+    font-family: var(--ff-main);
+}
+.text-lg {
+    font-size: var(--fs-700);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-800);
+    font-family: var(--ff-main);
+}
+.text-ex-lg {
+    font-size: var(--fs-800);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-900);
+    font-family: var(--ff-main);
+}
+
+
+.clr-main{
+background: linear-gradient(92.65deg, rgba(114, 52, 245, 0) -2.55%, rgba(114, 52, 245, 0.37) 47.76%, rgba(114, 52, 245, 0) 93.96%),
+        linear-gradient(0deg, #FFE6C4, #FFE6C4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.clr-tect{
+    font-family: 'Diagramm',
+            sans-serif;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 77px;
+        letter-spacing: 0em;
+        color: #fff;
+}
+.clr-1-C4 {
+    background-color: var(--clr-1-6C4);
+}
+
+.clr-2-0FE {
+    background-color: var(--clr-2-0FE);
+}
+.clr-3-bg3E4{
+    background-color: var(--clr-3-3E4);
+}
+.clr-4-bg0FE{
+    background-color:  var(--clr-4-0FE);
+}
+.clr-dark{
+    color: var(--clr-2-432);
+}
+.clr-light-white{
+    color: #fffffe74;;
+}
+.clr-bg-white{
+    background-color: var(--clr-white);
+}
+.clr-white{
+    color: var(--clr-white);
+}
+.clr-bg-black{
+    background-color: var(--clr-black);
+}
+.clr-5-8080{
+color: var(--clr-5-8080);
+}
+.clr-dark{
+    color: #141414be
+}

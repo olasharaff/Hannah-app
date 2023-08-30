@@ -1,0 +1,100 @@
+
+.convert-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.convert-header{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.convert-main{
+   display: flex;
+  flex-wrap: wrap;
+   gap: 2rem;  
+}
+.convert-box1{
+    position: relative;
+padding: 1rem;
+height: fit-content;
+border-radius: 0.6rem;
+}
+.convert-box2 {
+    height: fit-content;
+    border-radius: 0.6rem;
+   
+}
+.s-inner-TxtContent{
+
+    &  h1{
+max-width: 17rem;
+    }
+     & h2{
+        max-width: 19rem;
+        padding-bottom: 0.9rem;
+     }
+   
+}
+.s-inner-TxtContent-pd{
+    padding: 1rem;
+}
+.naira-left{
+   position: absolute;
+   top: 31%;
+   right: 8%;
+   max-width: 5rem;
+   width: 100%;
+}
+.naira-right{
+    position: absolute;
+    left: 3%;
+    top: 16%;
+    max-width: 5rem;
+    width: 100%;
+   
+}
+.box-header{
+    padding-bottom: 4rem;
+}
+
+.Toast{
+    max-width: 21rem;
+    width: 100%;
+    padding-bottom: 0.8rem;
+}
+.Wallet{
+    max-width: 18rem;
+    width: 100%;
+    margin-left: 4rem;
+   align-self: flex-end;
+   
+}
+.handIcon{
+   max-width: 22rem;
+   width: 100%;
+   margin-bottom: -7.29rem;
+    border-radius: 0.6rem;
+}
+.btn-arrow{
+    padding-bottom: 0.7rem;
+}
+
+.gettingStarted-btn{
+   padding: 0.5rem 1.5rem;
+   border-radius: 100px;
+   border: none;
+   display: flex;
+   color: black;
+}
+.arrow-left{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    white-space: nowrap;
+    margin: 0.2rem 0 0.2rem 0.4rem;
+   
+}
