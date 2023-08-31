@@ -71,6 +71,7 @@ function Footer() {
                     <span className='clr-5-8080'>© {new Date().getFullYear()} Hannah Technologies, Inc.</span>
                 </div>
                 <div className="social-media-icon">
+              
                     <a className="react-face" href="http://">
                         <Ai.AiFillFacebook size={22}  />
                     </a>
@@ -83,6 +84,7 @@ function Footer() {
                     <a className="react-inst" href="http://">
                         <Ai.AiOutlineInstagram size={22} />
                     </a>
+                  
                     <div className='downloading'>
                         <a className="app-download text-sm clr-white clr-bg-black" href="http://">
                         Android <Ai.AiFillAndroid className="app-down" />{" "}

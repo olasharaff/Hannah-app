@@ -1,5 +1,4 @@
-
-.convert-section{
+.convert-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,94 +6,148 @@
     flex-direction: column;
     padding: 2rem 0;
 }
-.convert-header{
+
+.convert-header {
     text-align: center;
     padding-bottom: 2rem;
 }
 
-.convert-main{
-   display: flex;
-  flex-wrap: wrap;
-   gap: 2rem;  
+.convert-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
-.convert-box1{
+
+.convert-box1 {
     position: relative;
-padding: 1rem;
-height: fit-content;
-border-radius: 0.6rem;
+    padding: 1rem;
+    height: fit-content;
+    border-radius: 0.6rem;
 }
+
 .convert-box2 {
     height: fit-content;
     border-radius: 0.6rem;
-   
-}
-.s-inner-TxtContent{
 
-    &  h1{
-max-width: 17rem;
+}
+
+.s-inner-TxtContent {
+
+    & h1 {
+        max-width: 17rem;
     }
-     & h2{
+
+    & h2 {
         max-width: 19rem;
         padding-bottom: 0.9rem;
-     }
-   
+    }
+
 }
-.s-inner-TxtContent-pd{
+
+.s-inner-TxtContent-pd {
     padding: 1rem;
 }
-.naira-left{
-   position: absolute;
-   top: 31%;
-   right: 8%;
-   max-width: 5rem;
-   width: 100%;
+
+.naira-left {
+    position: absolute;
+    top: 31%;
+    right: 8%;
+    max-width: 5rem;
+    width: 100%;
 }
-.naira-right{
+
+.naira-right {
     position: absolute;
     left: 3%;
     top: 16%;
     max-width: 5rem;
     width: 100%;
-   
+
 }
-.box-header{
+
+.box-header {
     padding-bottom: 4rem;
 }
 
-.Toast{
+.Toast {
     max-width: 21rem;
     width: 100%;
     padding-bottom: 0.8rem;
 }
-.Wallet{
+
+.Wallet {
     max-width: 18rem;
     width: 100%;
     margin-left: 4rem;
-   align-self: flex-end;
-   
+    align-self: flex-end;
+
 }
-.handIcon{
-   max-width: 22rem;
-   width: 100%;
-   margin-bottom: -7.29rem;
+
+.handIcon {
+    max-width: 22rem;
+    width: 100%;
+    margin-bottom: -7.29rem;
     border-radius: 0.6rem;
 }
-.btn-arrow{
+
+.btn-arrow {
     padding-bottom: 0.7rem;
 }
 
-.gettingStarted-btn{
-   padding: 0.5rem 1.5rem;
-   border-radius: 100px;
-   border: none;
-   display: flex;
-   color: black;
+.gettingStarted-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 100px;
+    border: none;
+    display: flex;
+    color: black;
 }
-.arrow-left{
+
+.arrow-left {
     align-items: center;
     justify-content: center;
     align-content: center;
     white-space: nowrap;
     margin: 0.2rem 0 0.2rem 0.4rem;
-   
+
+}
+
+@media (min-width: 23rem) and (max-width: 37rem){
+
+    .convert-main {
+        padding-inline: clamp(1rem, 5vw, 2rem);
+    }
+    .convert-header {
+        padding-inline: clamp(0.2rem, 5vw, 0.6rem);
+        
+
+        & h2{
+            font-size: var(--fs-100s);
+            border: 2px solid red;
+        }
+
+       
+        
+    }
+
+    .Toast {
+        max-width: 18rem;
+    }
+
+    .Wallet {
+        max-width: 16rem;
+        margin-left: 3rem;
+    }
+
+    .naira-left {
+        top: 29%;
+        right: 10%;
+        max-width: 4rem;
+
+    }
+
+    .naira-right {
+        max-width: 4.5rem;
+        left: 5%;
+        top: 14%;
+    }
 }

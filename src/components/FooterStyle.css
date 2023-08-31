@@ -88,7 +88,6 @@ border: 1px solid #F5F0FE;
     list-style: none;
     text-decoration: none;
     border-radius: 30px;
-   
     padding: 0.7rem 1.5rem;
     display: inline-flex;
     align-content: center;
@@ -99,4 +98,45 @@ border: 1px solid #F5F0FE;
 .app-down{
     margin: 0rem 0 0 0.5rem;
    
+}
+
+@media (min-width: 23rem) and (max-width: 37rem) {
+   .figure-container{
+    padding-inline: clamp(0.8rem, 5vw, 1.1rem);
+    & h1{
+        font-size: var(--fs-500s);
+    }
+   }
+   .log{
+    & p{
+        font-size: var(--fs-200);
+    }
+   } 
+   .feactures-box{
+        padding-block: 1rem;
+    }
+    .attribution {
+       align-items: center;
+           justify-content: center;
+           align-content: center;
+        }
+        .social-media-icon{
+           display: flex;
+           flex-direction: row;
+           
+        }
+                .downloading {
+                    margin-left:0;
+                    
+               
+        
+                }
+                                .react-face,
+                                .react-twi,
+                                .react-inst,
+                                .react-face,
+                                .react-link {
+                                    padding: 0;
+                                  
+                                }
 }

@@ -175,7 +175,7 @@ border-top: 1px solid gray;
     }
 }
 
-@media screen and (max-width: 32rem) {
+@media (min-width: 23rem) and (max-width: 37rem) {
 
     #Home {
             max-height: 800px;
@@ -193,8 +193,8 @@ main{
 
         & h2 {
             font-size: var(--fs-600);
-            max-width: 19rem;
-            border: 2px solid red;
+           
+           
 
         }
 
