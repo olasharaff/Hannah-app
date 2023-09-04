@@ -115,7 +115,7 @@
 
 }
 
-@media (min-width: 23rem) and (max-width: 37rem) {
+@media screen and (max-width: 30rem) {
 
     .convert-main {
         padding-inline: clamp(1rem, 5vw, 2rem);

@@ -175,7 +175,7 @@ border-top: 1px solid gray;
     }
 }
 
-@media (min-width: 23rem) and (max-width: 37rem) {
+@media screen and (max-width: 30rem) {
 
     #Home {
             max-height: 800px;

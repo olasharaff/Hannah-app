@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (max-width: 32rem) {
+@media screen and (max-width: 30rem) {
     #solution-section {
         padding-top: 16rem;
         padding-inline: 0.8rem;

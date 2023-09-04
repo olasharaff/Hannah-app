@@ -105,14 +105,26 @@ color: #808080;
    
 }
 
-@media screen and (max-width: 37rem) {
+@media screen and (max-width: 30rem) {
    .figure-container{
     padding-inline: clamp(0.8rem, 5vw, 1.1rem);
     & h1{
         font-size: var(--fs-500s);
     }
    }
+ 
    .log{
+    
+    text-align: center;
+    margin: 0 auto;
+    & img{
+        max-width: 10rem;
+        width: 100%;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
     & p{
         font-size: var(--fs-200);
     }
