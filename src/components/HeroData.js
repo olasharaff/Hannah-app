@@ -139,6 +139,12 @@ export const solutionNewsIcon = [
         alt: 'Premium Times icon',
         cName: 'newsIcon'
     },
+    {
+        id: 5,
+        newsIcon: '/assets/Techcabal.svg',
+        alt: 'Techcabal icon',
+        cName: 'newsIcon'
+    }
 ]
 export const ConvertDataHeader = [
     {

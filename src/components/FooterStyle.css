@@ -66,8 +66,16 @@ border: 1px solid #F5F0FE;
 .social-media-icon {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
-
+.socio-media{
+    display: flex;
+}
+.socio-media a {
+padding-inline: 1rem;
+color: #808080;
+}
+/* 
 .react-face,
 .react-twi,
 .react-inst,
@@ -77,12 +85,11 @@ border: 1px solid #F5F0FE;
     color: #808080;
     margin-top: 0.3rem;
    
-}
+} */
 
 
 .downloading{
-    margin-left: 3.7rem;
-    
+    padding-left: clamp(0.2rem, 5vw, 1rem);
 }
 .app-download {
     list-style: none;
@@ -91,16 +98,14 @@ border: 1px solid #F5F0FE;
     padding: 0.7rem 1.5rem;
     display: inline-flex;
     align-content: center;
-    margin-inline: 0.5rem;
-   
-    
+    margin-inline: 0.5rem;  
 }
 .app-down{
     margin: 0rem 0 0 0.5rem;
    
 }
 
-@media (min-width: 23rem) and (max-width: 37rem) {
+@media screen and (max-width: 37rem) {
    .figure-container{
     padding-inline: clamp(0.8rem, 5vw, 1.1rem);
     & h1{
@@ -116,27 +121,21 @@ border: 1px solid #F5F0FE;
         padding-block: 1rem;
     }
     .attribution {
-       align-items: center;
-           justify-content: center;
-           align-content: center;
-        }
-        .social-media-icon{
-           display: flex;
-           flex-direction: row;
+        flex-direction: column;
+            margin: 0 auto;
+            text-align: center;
+            align-content: center;
+            justify-content: center;
            
         }
-                .downloading {
-                    margin-left:0;
-                    
-               
-        
-                }
-                                .react-face,
-                                .react-twi,
-                                .react-inst,
-                                .react-face,
-                                .react-link {
-                                    padding: 0;
-                                  
-                                }
+        .social-media-icon{
+        flex-direction: column;
+            margin: 0 auto;
+            justify-content: center;
+           
+           
+        }
+               .downloading{
+                padding-top: 0.5rem;
+               }
 }

@@ -200,7 +200,7 @@ main{
 
         & h1 {
             font-size: var(--fs-700s); 
-            border: 2px solid red;
+           
         }
     }
 

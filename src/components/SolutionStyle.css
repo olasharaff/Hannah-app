@@ -37,8 +37,10 @@
 }
 
 .newsIcon {
+    max-width: 7.5rem;
+        width: 100%;
     margin: 1.5rem;
-    color: transparent;
+    filter: grayscale(100%);
 
 }
 
@@ -88,12 +90,11 @@
     }
 
     .solution-newsIcon-container {
-        border: 2px dashed red;
 
         & .newsIcon {
             max-width: 2.5rem;
             width: 100%;
-            filter: grayscale(100%);
+            
         }
 
     }
