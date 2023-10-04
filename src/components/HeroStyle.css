@@ -123,91 +123,138 @@ border-top: 1px solid gray;
      text-decoration: none;
    
  }
-@media screen and (max-width: 48rem) {
-   
+
+ @media screen and (min-width: 45rem) and (max-width: 73rem) {
     .navigation-header {
-        z-index: 99;
-        padding-inline: clamp(0.9rem, 5vw, 1rem);
-    }
-
-    .primary-navigation {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background: rgba(255, 255, 255, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4px);
-        border-radius: 14px;
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: -110%;
-        align-items: stretch;
-        padding: 3.5rem;
-        margin: 0;
-        z-index: -1;
-        transition: all 0.4s ease-in-out;
-    }
-
-    .primary-navigation.active {
-        left: 0%;
-    }
-
-    .nav-link {
-        display: block;
-        padding: 0.1rem 0;
-        widows: 100%;
-    }
-
-    .mobile-toggle {
-        display: block;
-    }
-    .hero-container{
-        padding-inline: clamp(0.9rem, 5vw, 1rem);
-        /* & h2{
-            
-              
+            z-index: 99;
+            padding-inline: clamp(0.9rem, 5vw, 1rem);
         }
-        & h1{
-           
-        } */
-    }
-}
-
-@media screen and (max-width: 30rem) {
-
-    #Home {
-            max-height: 800px;
+    
+        .primary-navigation {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            border-radius: 14px;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: -110%;
+            align-items: stretch;
+            padding: 3.5rem;
+            margin: 0;
+            z-index: -1;
+            transition: all 0.4s ease-in-out;
+        }
+    
+        .primary-navigation.active {
+            left: 0%;
+        }
+    
+        .nav-link {
+            display: block;
+            padding: 0.1rem 0;
+            widows: 100%;
+        }
+    
+        .mobile-toggle {
+            display: block;
+        }
+    
+        .hero-container {
+            padding-inline: clamp(0.9rem, 5vw, 1rem);
     
         }
-main{
-    position: none;
-}
-
+   
     .hero-container {
-        padding-inline: clamp(0.9rem, 5vw, 1rem);
-        margin: 0 auto;
-        align-items: center;
-        align-content: center;
+         max-width: 60rem;
+     }
 
-        & h2 {
-            font-size: var(--fs-600);
-           
-           
+     .hero-left-box {
+         border: 2px solid red;
+     }
 
+     .iphone-icon {
+         margin-top: clamp(1rem, 5vw, 3.5rem);
+         max-width: 20rem;
+         width: 100;
+     }
+ }
+
+ @media screen and  (max-width: 37rem) {
+    .navigation-header {
+            z-index: 99;
+            padding-inline: clamp(0.9rem, 5vw, 1rem);
         }
-
-        & h1 {
-            font-size: var(--fs-700s); 
-           
+    
+        .primary-navigation {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            border-radius: 14px;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: -110%;
+            align-items: stretch;
+            padding: 3.5rem;
+            margin: 0;
+            z-index: -1;
+            transition: all 0.4s ease-in-out;
         }
-    }
-
-        .iphone-icon {
-           padding-top: 5rem;
-            padding-inline:2rem;
-            max-width: 27rem;
-            width: 100;
+    
+        .primary-navigation.active {
+            left: 0%;
         }
+    
+        .nav-link {
+            display: block;
+            padding: 0.1rem 0;
+            widows: 100%;
+        }
+    
+        .mobile-toggle {
+            display: block;
+        }
+          #Home {
+              max-height: 800px;
+    
+          }
+    
+          main {
+              position: none;
+          }
+    
+          .hero-container {
+              padding-inline: clamp(0.9rem, 5vw, 1rem);
+              margin: 0 auto;
+              align-items: center;
+              align-content: center;
+              
+              & h2 {
+                  font-size: var(--fs-600);
+              }
+    
+              & h1 {
+                  font-size: var(--fs-700s);
+              }
+          }
+    
+          .iphone-icon {
+              padding-top: clamp(0.3rem, 5vw, 1rem);
+              padding-inline: 2rem;
+              max-width: 27rem;
+              width: 100;
+          }
 }
+
+ 
+
+

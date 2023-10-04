@@ -6,7 +6,7 @@ import { TfiWorld } from "react-icons/tfi"
 
 function Footer() {
     return (
-        <div>
+        <div className='bg-red-400'>
             <div className='figure-container'>
                 <div className='figure-accessories'>
                     <img src='/assets/accessories.svg' alt='accessories Svg' className='accessoriesImg' />

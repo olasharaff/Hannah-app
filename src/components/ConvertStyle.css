@@ -69,9 +69,7 @@
     padding-bottom: 4rem;
 }
 
-.box-header2 {
-    display: none;
-}
+
 
 .Toast {
     max-width: 21rem;
@@ -115,7 +113,14 @@
 
 }
 
-@media screen and (max-width: 30rem) {
+/* SMALL DESKTOP VIEW PORT */
+@media screen and (min-width: 30rem) and (max-width: 73rem) {
+    .convert-header {
+        border: 3px solid red;
+    }
+}
+
+@media only screen and (max-width: 30rem) {
 
     .convert-main {
         padding-inline: clamp(1rem, 5vw, 2rem);
@@ -147,7 +152,6 @@
         top: 29%;
         right: 10%;
         max-width: 4rem;
-
     }
 
     .naira-right {
@@ -156,27 +160,7 @@
         top: 14%;
     }
 
-    .box-header2 {
-        display: block;
-        padding: 2rem 1rem 0;
-
-    }
-
-    .naira-leftt {
-        position: absolute;
-        left: 10%;
-        top: 155rem;
-       
-    }
-
-    .naira-rightt {
-        position: absolute;
-        top: 160.5rem;
-        right: 25%;
-    }
-
     .handIcon {
         display: none;
-
     }
 }

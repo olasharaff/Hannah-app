@@ -1,52 +1,60 @@
 
-export const NavbarData = [
-    {
-        id: 1,
-        navText: "Features",
-        navUrl: "Features",
-        navLink: "nav-link"
-    },
-    {
-        id: 2,
-        navText: "About",
-        navUrl: "About",
-        navLink: "nav-link"
-    },
-    {
-        id: 3,
-        navText: "Blog",
-        navUrl: "Blog",
-        navLink: "nav-link"
-    },
-    {
-        id: 4,
-        navText: "FAQs",
-        navUrl: "FAQs",
-        navLink: "nav-link",
-        cName: "faqs"
-    },
-    {
-        id: 5,
-        navText: "Contacts",
-        navUrl: "#",
-        navLink: "nav-link",
-        cName: "contact"
-    },
-    {
-        id: 6,
-        navText: "I have an account. Log in",
-        navUrl: "#",
-        navLink: "nav-link",
-        cName: "login"
-    },
-    {
-        id: 7,
-        navText: "Create an account",
-        navUrl: "#",
-        navLink: "nav-link",
-        cName: "register"
-    }
-];
+
+// export const NavbarData = [
+    
+//     {
+//         id: 1,
+//         navText: "Features",
+//         navUrl: "Features",
+//         navLink: "nav-link"
+//     },
+//     {
+//         id: 2,
+//         navText: "About",
+//         navUrl: "About",
+//         navLink: "nav-link",
+//         navigate:'navigate('/')'
+//     },
+//     {
+//         id: 3,
+//         navText: "Blog",
+//         navUrl: "Blog",
+//         navLink: "nav-link",
+//         navigate: 'navigate('/')'
+//     },
+//     {
+//         id: 4,
+//         navText: "FAQs",
+//         navUrl: "FAQs",
+//         navLink: "nav-link",
+//         cName: "faqs",
+//         navigate: 'navigate(' / ')'
+//     },
+//     {
+//         id: 5,
+//         navText: "Contacts",
+//         navUrl: "#",
+//         navLink: "nav-link",
+//         cName: "contact",
+       
+//     },
+//     {
+//         id: 6,
+//         navText: "I have an account. Log in",
+//         navUrl: "#",
+//         navLink: "nav-link",
+//         cName: "login",
+//         navigate: 'navigate(' / ')'
+//     },
+//     {
+//         id: 7,
+//         navText: "Create an account",
+//         navUrl: "#",
+//         navLink: "nav-link",
+//         cName: "register",
+//         navigate: 'navigate(' / ')'
+//     }
+// ];
 
 export const HeroMain = [
     {

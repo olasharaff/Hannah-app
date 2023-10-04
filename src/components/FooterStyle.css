@@ -105,7 +105,7 @@ color: #808080;
    
 }
 
-@media screen and (max-width: 30rem) {
+@media only screen and (max-width: 30rem) {
    .figure-container{
     padding-inline: clamp(0.8rem, 5vw, 1.1rem);
     & h1{
